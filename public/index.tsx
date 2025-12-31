@@ -24,6 +24,8 @@ function App() {
 const root = createRoot(document.getElementById("root")!);
 root.render(
   <Layout className="gap-5">
-    <App />
+    <StrictMode>
+      <App />
+    </StrictMode>
   </Layout>,
 );
