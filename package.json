@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "@elysiajs/static": "^1.4.7",
+    "@tanstack/react-router": "^1.144.0",
+    "@tanstack/react-router-devtools": "^1.144.0",
     "clsx": "^2.1.1",
     "elysia": "latest",
     "react": "^19.2.3",
@@ -14,6 +16,7 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
+    "@tanstack/router-plugin": "^1.145.2",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "bun-plugin-tailwind": "^0.1.2",
